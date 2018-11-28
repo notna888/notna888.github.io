@@ -22,12 +22,13 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('My Old, now abandoned Website', 'http://notna888.beevomit.org/'),
          ('Work', 'http://sustainableplatform.com/team'),
-         ('', '#'),)
+         # ('', '#'),
+        )
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/notna888'),
           ('Github', 'https://github.com/notna888'),
-          ('', '#'),
+          # ('', '#'),
          )
 
 DEFAULT_PAGINATION = 10
