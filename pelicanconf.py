@@ -11,6 +11,7 @@ PATH = 'content'
 TIMEZONE = 'Australia/Perth'
 
 DEFAULT_LANG = 'English'
+THEME = "./theme"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -20,7 +21,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('My Old, now abandoned Website', 'http://notna888.beevomit.org/'),
+LINKS = (('My old, abandoned website', 'http://notna888.beevomit.org/'),
          ('Work', 'http://sustainableplatform.com/team'),
          # ('', '#'),
         )

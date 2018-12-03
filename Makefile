@@ -75,6 +75,6 @@ publish:
 github:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 	ghp-import output
-	git push git@github.com:elemoine/elemoine.github.io.git gh-pages:master --force
+	git push git@github.com:notna888/notna888.github.io.git gh-pages:master --force
 
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish
