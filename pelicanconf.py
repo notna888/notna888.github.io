@@ -22,7 +22,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('My old, abandoned website', 'http://notna888.beevomit.org/'),
-         ('Work', 'http://sustainableplatform.com/team'),
+         # ('Work', 'http://sustainableplatform.com/team'),
          # ('', '#'),
         )
 
