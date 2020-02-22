@@ -22,7 +22,6 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('My old, abandoned website', 'http://notna888.beevomit.org/'),
-         # ('Work', 'http://sustainableplatform.com/team'),
          # ('', '#'),
         )
 
@@ -36,3 +35,11 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+PLUGINS = ['encrypt_content']
+
+
+ENCRYPT_CONTENT = {
+    'title_prefix': '[Encrypted]',
+    'summary': 'This content is encrypted.'
+}
