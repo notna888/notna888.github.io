@@ -12,6 +12,7 @@ TIMEZONE = 'Australia/Perth'
 
 DEFAULT_LANG = 'English'
 THEME = "./theme"
+# THEME = "./theme_new"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -37,10 +38,27 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['encrypt_content']
+PLUGINS = [
+        'encrypt-content.encrypt_content',
+        'sitemap',
+    ]
 
 
 ENCRYPT_CONTENT = {
     'title_prefix': '[Encrypted]',
     'summary': 'This content is encrypted.'
+}
+
+SITEMAP = {
+'format': 'xml',
+'priorities': {
+    'articles': 0.5,
+    'indexes': 0.4,
+    'pages': 0.4
+},
+'changefreqs': {
+    'articles': 'monthly',
+    'indexes': 'daily',
+    'pages': 'monthly'
+}
 }
