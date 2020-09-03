@@ -10,7 +10,7 @@ PATH = 'content'
 
 TIMEZONE = 'Australia/Perth'
 
-DEFAULT_LANG = 'English'
+DEFAULT_LANG = 'en'
 THEME = "./theme"
 # THEME = "./theme_new"
 
@@ -39,7 +39,7 @@ RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = [
-        'encrypt-content.encrypt_content',
+        'encrypt-content.encrypt_content.encrypt_content',
         'sitemap',
     ]
 
