@@ -13,16 +13,14 @@ As such this is in effect my Last Will and Testament and any published before th
 ## Desired distribution
 This lays out my desired distribution of any monetary wealth I may of had upon my death.
 
-*Ki Savill: 55%
-
-*Mum/William: 25%
+*My mother and little brother (Lesley and William Savill): 80-90%
 
 *Dad: 10%
 
 In addition to above:
 *I would appreciate a portion - ideally no more than 10% of my residual estate to be set aside for grief counselling to friends and co-workers close to me, especially if my death was sudden and unexpected. If a friend is able to present written proof of me owing them a formal debt to a maximum of $500 (unless specifically mentioned as an amendment to my digital will)
 
-In the case of where these percentages cannot be distributed to my wishes I would like to fall back to leaving my entire estate behind to my next-of-kin, Ki Savill, my wife for distribution at her discretion.
+In the case of where these percentages cannot be distributed to my wishes I would like to fall back to leaving my entire estate behind to my next-of-kin, Lesley Savill, my mother for distribution at her discretion.
 
 
 
