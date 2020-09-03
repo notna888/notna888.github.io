@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="english">
+<html lang="en">
 <head>
         <meta charset="utf-8" />
         <title>Anton's Website - Anton Savill</title>
@@ -12,13 +12,179 @@
                 <h1><a href="../">Anton's Website </a></h1>
                 <nav><ul>
                     <li><a href="../pages/about-me.html">About Me</a></li>
+                    <li><a href="../pages/in-case-of-incapacity.html">[Encrypted] In Case of Incapacity</a></li>
                     <li><a href="../category/blog.html">Blog</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../2019-12-31.html">2019-12-31</a></h1>
+                    <h1 class="entry-title"><a href="../introducing-pylaridae.html">Introducing PyLaridae</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2020-09-03T11:14:00+08:00">
+                Published: Thu 03 September 2020
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/anton-savill.html">Anton Savill</a>
+        </address>
+<p>In <a href="../category/blog.html">Blog</a>.</p>
+
+</footer><!-- /.post-info --><h1>PyLaridae</h1>
+<p>Heads up for my non-technical readers, this blog is now a dev-log. I vaguely talk about coding and whatnot.</p>
+<p>I thought I was mad when I first started thinking of this, yet another project for me to get started on and then basically immediately drop, but thanks to two weeks vacation, I've actually done some stuff on it.</p>
+<h2>Woah there friend, you're going too fast</h2>
+<p>Right, so in my last blog post I spoke about wanting to get sort of involved in the Static Site Generator world along with HeadlessCMS. I had started writing a static site generator before called Seagull. I named it seagull because I was mostly inspired by Pelican (which is what I use to turn this blog from basic Markdown into nice fancy html.)</p>
+<p>I wrote Seagull to speed up how I start some of my little side projects that I start and never upload or do anything with, so messing around with a js charting library, I like to set up a specific folder layout, include bootstrap everywhere, do links to different pages where I do different things, etc etc. Seagull is far from being anywhere near functional for that. I expected when I went down south for my break I'd spend most of my time working on that, improving, tweaking, getting it ready for me to write another program that plugs into it.</p>
+<p>Turns out I was like "nah, not into that" and went straight for the program to start managing files and whatnot. It took me a while to work out what I was going to call this extension project though. Initially I was thinking calling it "PyTern" because of an old joke of my dad's which was if you see a seagull on it's own, it's a bad seagull, because "One good <em>tern</em> deserves another". I'm no biologist, but gulls and terns are in the same family. I believe the common seagull is also known as the "Arctic Tern" - I could google this, but my phone is dead and as I write this I don't actually have internet. Anyway, didn't end up going with Tern/PyTern because searching "Tern Software" comes up with a javascript analysis project (I think) and PyTern looks too close to PyTerm which is a terminal emulator. PyTerm hadn't been touched in about 5 years, but still, I want my program to stand out on it's own. So I went for the scientific term for Gulls and Terns, Laridae. Laridae was some project for some specific need in R, but PyLaridae was free for me to use.</p>
+<h2>Wow, okay, show not tell?</h2>
+<p><a href="https://github.com/notna888/seagull">Seagull</a>: https://github.com/notna888/seagull</p>
+<p><a href="https://github.com/notna888/pyLaridae">PyLaridae</a>: https://github.com/notna888/pyLaridae</p>
+<h2>Thanks, now tell me more about PyLaridae</h2>
+<p>So, PyLaridae is still very much in it's infancy, there's still a lot to do before I'd say it's anywhere near being ready to actually use, but some of the stuff I've gotten working is that it displays files/folders in a directory, I've written two classes that I'm basically going to use instead of trying to extend the built in python file objects. I'll come back to why I'm doing it that way in a moment.
+Today I've just started work on being able to write posts, I haven't properly started anything in the code yet because I'm spending some time researching the best way to do it. I found a vue library that I think might be good, but I'm still thinking about it all. Part of the reason I wanted to write my own file/folder objects, is because inserting images into markdown is a bit of a pain, might just be I'm not super crash hot at it, but it's my firm belief it should be easier than it is, so I'll build a wrapper around it.</p>
+<p>One last thing. I'm not going to make it so PyLaridae needs to use seagull, in fact I'm planning on it being it's own standalone project for the most part, so the output of the posts can either be HTML which seagull will take in, or it'll be markdown which it seems every other SSG on the planet uses. But that's sort of a stretch goal.
+That being said I'm thinking of adding markdown support to Seagull, but I'm not really not sure on that yet.</p>
+<h3>Um, so yeah, I think that's all I wanted to include for this devlog. Thanks for reading, and feel free to tweet at me if you have any questions on these two projects. Cheers!</h3>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../inspiration.html" rel="bookmark"
+                           title="Permalink to Inspiration">Inspiration</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2020-08-18T00:00:00+08:00">
+                Published: Tue 18 August 2020
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/anton-savill.html">Anton Savill</a>
+        </address>
+<p>In <a href="../category/blog.html">Blog</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Inspiration</h1>
+<p>It's funny, you never really know when inspiration is going to strike, well, I at least don't.</p>
+<p>I have somewhat been neglecting this blog a bit lately, but that's something for me to talk about another time, right now I just want to share this idea I've got rattling …</p>
+                <a class="readmore" href="../inspiration.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../2020-06-02.html" rel="bookmark"
+                           title="Permalink to 2020-06-02">2020-06-02</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2020-06-02T22:00:00+08:00">
+                Published: Tue 02 June 2020
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/anton-savill.html">Anton Savill</a>
+        </address>
+<p>In <a href="../category/blog.html">Blog</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Getting back in the swing of things</h1>
+<p>Right, so.</p>
+<p>Quite a bit has happened in the last few months, and I'd be lying if it hadn't knocked me off kilter a bit. Some major events happened and I haven't really properly given myself a break and it's just been flat …</p>
+                <a class="readmore" href="../2020-06-02.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../jesters-pie-ranking-list.html" rel="bookmark"
+                           title="Permalink to Jesters Pie Ranking List">Jesters Pie Ranking List</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2020-04-23T01:20:00+08:00">
+                Published: Thu 23 April 2020
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/anton-savill.html">Anton Savill</a>
+        </address>
+<p>In <a href="../category/blog.html">Blog</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Jesters Pie Ranking List</h1>
+<h2>Normal Pies</h2>
+<ol>
+<li>Dr Pepper - Easily my favourite pie, just the right amount of pepper.</li>
+<li>Magic Mushroom - My go to when the Dr Pepper isn't available.</li>
+<li>
+<p>Marharaja - When I don't feel like beef.</p>
+</li>
+<li>
+<p>Spud Deluxe - I always have a soft spot for potato pies, carbs on carbs …</p></li></ol>
+                <a class="readmore" href="../jesters-pie-ranking-list.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../2020-04-03.html" rel="bookmark"
+                           title="Permalink to 2020-04-03">2020-04-03</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2020-04-03T20:20:00+08:00">
+                Published: Fri 03 April 2020
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/anton-savill.html">Anton Savill</a>
+        </address>
+<p>In <a href="../category/blog.html">Blog</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Last post at this house, first from the new one</h1>
+<p>So, moving out from my current place soon. I'll be leaving the western suburbs and moving north. I've been here about 15 months and in all this time it's never exactly felt like home. I'm not sure if it's that …</p>
+                <a class="readmore" href="../2020-04-03.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../2020-02-22.html" rel="bookmark"
+                           title="Permalink to 2020-02-22">2020-02-22</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2020-02-22T14:22:00+08:00">
+                Published: Sat 22 February 2020
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/anton-savill.html">Anton Savill</a>
+        </address>
+<p>In <a href="../category/blog.html">Blog</a>.</p>
+
+</footer><!-- /.post-info -->                <h1>Another Post</h1>
+<p>Another time me saying how unbelievably busy I've been.</p>
+<p>There's not honestly a lot to say. I've finally added my "continuity" page, it's protected with a password, but if anyone like looks at the github they can find the password, It's nothing special, I just feel like I …</p>
+                <a class="readmore" href="../2020-02-22.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../2019-12-31.html" rel="bookmark"
+                           title="Permalink to 2019-12-31">2019-12-31</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2019-12-31T14:30:00+08:00">
                 Published: Tue 31 December 2019
@@ -29,133 +195,12 @@
         </address>
 <p>In <a href="../category/blog.html">Blog</a>.</p>
 
-</footer><!-- /.post-info --><h1>Media of the Decade</h1>
+</footer><!-- /.post-info -->                <h1>Media of the Decade</h1>
 <p>So I've been so busy the last few months I haven't really had time to write up a proper blog, but I've been on break for a week now, and I'm only just beginning to feel relaxed today pretty much.</p>
-<p>I was thinking about writing up like notable events for me over the past decade, but I'll probably end up posting a bunch to instagram, because that seems the relevant spot to put that kinda stuff.
-Anyway, shout out to this tweet here ( https://twitter.com/domesticlullaby/status/1211608402310250496 ) for me actually writing this up, I was considering it, but this is encouragement etc.</p>
-<p>These aren't in any particular order, they're just one's that are notable to me that I saw in the last decade, I'll italicise all the one's that have been released in the past 10 years, just to differentiate them a little.</p>
-<p>I'm also leaving music off for now, because if I were to do that I would've had to start like a month ago just to go through my library and pull everything out.</p>
-<h2>Anime</h2>
-<p>Anime gets it's own category because it just makes it a little bit easier when separating them out.</p>
-<p>I'm going to write a little something about each of these, won't be a long description though.</p>
-<ul>
-<li>
-<p>Akira<br>
-It's a real shame it took me this long to see this film, I feel like it's the kind of thing that'll always be with me in some way or another, deep and ingrained. I'll probably go back and watch it again sometime soon because only a few disconnected plot elements remain in my head.</p>
-</li>
-<li>
-<p>Cowboy Bebop<br>
-I finished this one only yesterday. I first attempted watching it all the way back in about 2010-2011. I'm not entirely sure why it took me so long as it was very enjoyable, I think it was I'd watch the first 5-10 episodes, then get busy with something else, and then come back later and start it again. Now that I persisted and actually got all the way through it, definitely worth it.</p>
-</li>
-<li>
-<p><em>Mob Psycho 100</em><br>
-I'm terrible at binging shows, like, a binge for me is 2 or 3 episodes in a day, I mean, I assume that's terrible, basing that off my wife and general things online. I guess it's not even the 2-3 in a day, it's more that I do that once and then I don't watch anything for the next 2 or 3 days at all, there's been a small number of shows where I'm not beholden to this, the most recent of such shows is Mob Psycho 100, I'm not 100% of what it is about it that drew me in and held on, but I have no hesitation recommending it to anyone. Not to mention one of my new favourite music artists has a few AMV's. search up Lex the Lexicon Artist for her work.</p>
-</li>
-<li>
-<p><em>Food Wars</em><br>
-Food wars, food wars, food wars... There's not much to say besides it's a shounen where the main character cooks so good he blows people's clothes off. I watched it for the meme of it and it managed to sucker me in, worth a shot, but if the characters don't interest you in the first couple of episodes, I'd probably let it lie.</p>
-</li>
-<li>
-<p><em>One Punch Man</em><br>
-If you haven't heard of this one then, I'm not sure what to say. The show in premise is a parody of a bunch of other anime's where the main character is able to just win, regardless of the insurmountable odds, and this takes it to the extreme in that Saitama (main character) is able to defeat any opponent with a single punch. The premise alone is worth it in my opinion, but the nonchalance of Saitama is what really carries it in my opinion.</p>
-</li>
-<li>
-<p>Ghost in the Shell: Stand Alone Complex<br>
-So, this is what I thought Ghost in the Shell was for the longest time, and then when playing Cyberpunk 2020 with some friends, and they described this as "Cyberpunk" along with some other items (which allude me currently) I was a bit confused, because while the movies (which I only watched last year or the year before or so) are very much cyberpunk with the grim view of the future and whatnot, SAC feels a lot more positive and happy, especially the Tachikomas. Which is worth watching the show on their own for.</p>
-</li>
-<li>
-<p>Neon Genesis Evangelion<br>
-Alright, so this one is one of those you either like or you don't. I'm not ashamed to admit that at the end of it, it kind of messed me up a little and I had to take a few hours just to absorb it all once it was done.</p>
-</li>
-<li>
-<p><em>Angel Beats</em><br>
-Out of all the one's I've listed here, if you haven't seen it, I'd recommend this one. It's super endearing and gets kind of emotional at the end. It's the one anime I know that my wife has sat down and watched more than once.</p>
-</li>
-<li>
-<p><em>Steins;Gate</em><br>
-This one's probably my favourite of the decade, it makes reference to the old internet story of John Titor, it's sci-fi, it's got time travel stuff, and it has Tu-tu-ru girl. (it makes sense if you've seen it). I've really been meaning to go back and watch the other series that they've released. I believe they're sequels</p>
-</li>
-</ul>
-<h2>Movies</h2>
-<p>Alright, movies. I've watched a lot more movies than anime over the last decade, so this one will be a lot more terse, and I'll probably just skim over a majority of the ones I've seen. No particular order. These are also one's where I just recommend you go look up the synopsis yourself and decide from that.</p>
-<ul>
-<li><em>Arrival</em></li>
-<li><em>Mad Max: Fury Road</em></li>
-<li><em>Shutter Island</em></li>
-<li><em>The Imitation Game</em></li>
-<li><em>Guardians of the Galaxy</em></li>
-<li><em>Baby Driver</em></li>
-<li><em>Inception</em></li>
-<li><em>Her</em></li>
-<li><em>Inside Out</em></li>
-<li><em>The Theory of Everything</em></li>
-<li><em>How to Train Your Dragon</em></li>
-<li><em>Solo: A Star Wars Story</em></li>
-<li><em>Tron: Legacy</em></li>
-</ul>
-<p>Dating these movies I've watched for the first time, but not from the past decade</p>
-<ul>
-<li>Cube (1997)</li>
-<li>The Net (1996)</li>
-<li>Sunshine (2007)</li>
-<li>Hackers (1995)</li>
-<li>The Muppet Christmas Carol (1992)</li>
-<li>War Games (1983)</li>
-<li>V for Vendetta (2005)</li>
-<li>Clerks (1994)</li>
-<li>Bill &amp; Ted's Excellent Adventure (1989)</li>
-</ul>
-<p>There is probably a great number I have missed, but these are all that come to mind that I would watch again.</p>
-<h2>T.V. Shows</h2>
-<p>Some of these, I watched before 2010, but these are one's that either finished in the last decade, or I went back and watched through the entire series since.</p>
-<ul>
-<li>Adventure Time</li>
-<li>Gravity Falls</li>
-<li>Community</li>
-<li>Star Gate: SG1</li>
-<li>Star Gate: Atlantis</li>
-<li>Star Gate: Universe</li>
-<li>Avatar: The Last Airbender</li>
-<li>Avatar: The Legend of Korra</li>
-<li>Daria</li>
-<li>Parks and Recreation</li>
-<li>Scrubs</li>
-<li>Sherlock</li>
-<li>Bobs Burgers</li>
-<li>Dr. Who</li>
-<li>Silicon Valley</li>
-<li>Mr. Robot</li>
-<li>Dirk Gently's Holistic Detective Agency</li>
-<li>Brooklyn Nine-Nine</li>
-<li>Rick and Morty</li>
-<li>Dr. Ken</li>
-<li>Firefly</li>
-</ul>
-<p>The ones below I haven't finished watching, for any number of reasons, but most I want to go back and get back into. Some of them I've only seen one or two episodes and I need to watch more to properly decide.</p>
-<ul>
-<li>The Flash</li>
-<li>Agents of S.H.I.E.L.D</li>
-<li>Legends of Tomorrow</li>
-<li>Arrow</li>
-<li>House</li>
-<li>Star Trek: The Next Generation</li>
-<li>Invader Zim</li>
-<li>Farscape</li>
-<li>Steven Universe</li>
-<li>Star vs. the Forces of Evil</li>
-<li>Black Mirror</li>
-<li>Westworld</li>
-<li>The 100</li>
-<li>Terra Nova</li>
-<li>Person of Interest</li>
-</ul>
-<h3>So that's the list.. Maybe I'll keep this one updated, or maybe I'll post updates to it, who knows.</h3>
-<p>Anyway, have a lovely new years eve, and a lovely new decade.</p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+<p>I was thinking about writing up …</p>
+                <a class="readmore" href="../2019-12-31.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -226,150 +271,9 @@ This one's probably my favourite of the decade, it makes reference to the old in
                 <a class="readmore" href="../2019-08-26.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="../song-challenge-thing.html" rel="bookmark"
-                           title="Permalink to Song Challenge Thing">Song Challenge Thing</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-08-06T22:00:00+08:00">
-                Published: Tue 06 August 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="../author/anton-savill.html">Anton Savill</a>
-        </address>
-<p>In <a href="../category/blog.html">Blog</a>.</p>
-
-</footer><!-- /.post-info -->                <h1>Song Challenge Thing</h1>
-<p>So my wife found this picture last month which is one of those 31 day song challenge things where you list off a different song each day and I was intending on posting it for my July post, but I forgot about it until literally 2 minutes …</p>
-                <a class="readmore" href="../song-challenge-thing.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="../2019-07.html" rel="bookmark"
-                           title="Permalink to 2019-07">2019-07</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-07-24T23:30:00+08:00">
-                Published: Wed 24 July 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="../author/anton-savill.html">Anton Savill</a>
-        </address>
-<p>In <a href="../category/blog.html">Blog</a>.</p>
-
-</footer><!-- /.post-info -->                <h1>Blog for July 2019</h1>
-<p>So, I haven't really much to discuss this month, it's kind of just flown by in what feels like an instant.</p>
-<p>One thing I do want to talk about though is the notion of a 10x engineer that I somehow only found out about this month …</p>
-                <a class="readmore" href="../2019-07.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="../2019-06.html" rel="bookmark"
-                           title="Permalink to 2019-06">2019-06</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-06-22T18:30:00+08:00">
-                Published: Sat 22 June 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="../author/anton-savill.html">Anton Savill</a>
-        </address>
-<p>In <a href="../category/blog.html">Blog</a>.</p>
-
-</footer><!-- /.post-info -->                <h1>Blog for June 2019</h1>
-<p>Another month, another day that I set aside to type up some of my thoughts and whatnot.</p>
-<h2>Reflection</h2>
-<p>Since I wrote my last post, I did try to write another one on the fact that I turned 25 and what that actually meant for me. Each …</p>
-                <a class="readmore" href="../2019-06.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="../why-i-choose-to-do-things-the-hard-way.html" rel="bookmark"
-                           title="Permalink to Why I choose to do things the hard way">Why I choose to do things the hard way</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-05-04T20:30:00+08:00">
-                Published: Sat 04 May 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="../author/anton-savill.html">Anton Savill</a>
-        </address>
-<p>In <a href="../category/blog.html">Blog</a>.</p>
-
-</footer><!-- /.post-info -->                <p>So, this blog post is a bit out of my normal schedule that I've settled into lately, but that doesn't really matter because what is a schedule for a personal project anyway? There's no deadlines here, no expectations, and that's why this is a hobby.</p>
-<p>Anyway, the reason for this …</p>
-                <a class="readmore" href="../why-i-choose-to-do-things-the-hard-way.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="../2019-04.html" rel="bookmark"
-                           title="Permalink to 2019-04">2019-04</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-04-24T18:30:00+08:00">
-                Published: Wed 24 April 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="../author/anton-savill.html">Anton Savill</a>
-        </address>
-<p>In <a href="../category/blog.html">Blog</a>.</p>
-
-</footer><!-- /.post-info -->                <p>Another month, another blog post, this one's probably going to be even lighter than last month</p>
-<h2>Work</h2>
-<p>I said last month was a bit of a whirlwind, well this one's been a hurricane. I've been taking time where I can but everything has been moving forwards at an astounding pace …</p>
-                <a class="readmore" href="../2019-04.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="../2019-03-03.html" rel="bookmark"
-                           title="Permalink to 2019-03-03">2019-03-03</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-03-03T18:30:00+08:00">
-                Published: Sun 03 March 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="../author/anton-savill.html">Anton Savill</a>
-        </address>
-<p>In <a href="../category/blog.html">Blog</a>.</p>
-
-</footer><!-- /.post-info -->                <p>Another month, another blog post, but this time I think I'll make it a bit more free form, I won't do what I normally do and copy paste my previous blog and change the titles to suit what I'm actually going to be talking about, I'm just going to write …</p>
-                <a class="readmore" href="../2019-03-03.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
                 </ol><!-- /#posts-list -->
 <p class="paginator">
-    Page 1 / 2
+    Page 1 / 3
         <a href="../author/anton-savill2.html">&raquo;</a>
 </p>
                 </section><!-- /#content -->
