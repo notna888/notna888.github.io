@@ -1,5 +1,5 @@
 pelican==4.0.1
 Markdown==3.0.1
 ghp-import==0.5.5
-pycryptodome==3.9.7
+pycryptodome==3.19.1
 webassets==2.0
