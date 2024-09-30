@@ -23,7 +23,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('My old, abandoned website', 'http://notna888.beevomit.org/'),
-         # ('', '#'),
+         ('My new, less abandoned website', 'http://notna888.com'),
         )
 
 # Social widget
@@ -39,7 +39,7 @@ RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = [
-        'encrypt-content.encrypt_content.encrypt_content',
+#        'encrypt-content.encrypt_content.encrypt_content',
         'sitemap',
     ]
 
