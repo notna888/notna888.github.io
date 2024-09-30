@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Inspiration</title>
+        <link rel="stylesheet" href="./theme/css/main.css" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="./">Anton's Website </a></h1>
+                <nav><ul>
+                    <li><a href="./pages/about-me.html">About Me</a></li>
+                    <li class="active"><a href="./category/blog.html">Blog</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="./inspiration.html" rel="bookmark"
+           title="Permalink to Inspiration">Inspiration</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2020-08-18T00:00:00+08:00">
+                Published: Tue 18 August 2020
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="./author/anton-savill.html">Anton Savill</a>
+        </address>
+<p>In <a href="./category/blog.html">Blog</a>.</p>
+
+</footer><!-- /.post-info -->      <h1>Inspiration</h1>
+<p>It's funny, you never really know when inspiration is going to strike, well, I at least don't.</p>
+<p>I have somewhat been neglecting this blog a bit lately, but that's something for me to talk about another time, right now I just want to share this idea I've got rattling around inside my head</p>
+<h2>Headless CMS</h2>
+<p>So, for a friend I've been looking at giving them a head leaving one of those site builder websites onto a more self hosted solution. Thing is coding and writing stuff in markdown directly is such a drag and there'd surely be a better way.</p>
+<p>I've been looking into headless CMS's and whatnot and a lot of them seem okay, and pretty usable, but there's a big part that feels like extending them isn't ideal. So while they might not actually go with it I've decided that personally I'm going to have a crack at it myself.</p>
+<p>A headless CMS seems the best choice just because it means the pages can be generated and then put up basically wherever, so like how this blog can live basically anywhere (including the artic vault apparently, which is <em>wicked cool</em>)</p>
+<h2>So what's my great idea.</h2>
+<p>I already started writing a little static site generator last year? Maybe it was this year? It's a bit hard to tell, either way this is what I'm going to be basing this whole plan off of.</p>
+<ol>
+<li>Extend Seagull. (This doesn't really count, as it's barely just half finished in it's current state)</li>
+</ol>
+<p>So some of the stuff I've thought that would be nice with Seagull</p>
+<ol>
+<li>Automatic index pages for folders.</li>
+<li>Auto generated navigation menus based off of folder structure</li>
+<li>Max depth for said navigation, maybe by default 2? So menus, then submenus? Sub sub menus might be beyond my css skills just off the cuff</li>
+<li>Might make a cookiecutter template for it? I've only recently discovered cookiecutter and it seems neat.</li>
+</ol>
+<p>Of course there's more to a headless CMS than a substandard static site generator built by a single man, so to extend it I'm thinking of writing the following new projects.</p>
+<ol>
+<li>Flask app to manage image files/folders etc</li>
+<li>Flask app to help write the posts to go on the page</li>
+<li>Some sort of JS editor that can switch between: Markdown, HTML, and WYSIWYG Rich Text type editor? I might just pinch one that already exists and plug that into number 2. Being able to preview what the text comes out like would be a massive bonus obviously.</li>
+</ol>
+<p>Big part of the reason I'm thinking a flask app is because I'm most comfortable in Django, but that just comes with so much stuff that just isn't needed and is kind of overkill for something that's intended to be run locally. I've played around a bit with Flask and it feels to me at least to be a stripped down Django. I haven't touched pyramid or any of the other python web frameworks, but from what I've seen, I don't think they're really what I'm after. I could probably go with a different language, but seeing Seagull was written in python (and that's how I make my bread and butter) it simplifies things just to have the one stack I guess.</p>
+<p>And lastly I think I'll end up writing instructions to write/extend/deploy the output to github/gitlab pages and whatnot.</p>
+<p>So I think this will be the purpose of my blog for the next while. I've been switching kind of haphazardly between personal projects the last couple of months. This one is big enough and varied enough that I should be able to work on it without getting fatigued and whatnot.</p>
+<h3>That's me for now. Cheers, maybe we'll see some open source contribution soon!</h3>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://notna888.beevomit.org/">My old, abandoned website</a></li>
+                            <li><a href="http://notna888.com">My new, less abandoned website</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="https://twitter.com/notna888">Twitter</a></li>
+                            <li><a href="https://github.com/notna888">Github</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
